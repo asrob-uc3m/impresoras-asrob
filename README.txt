@@ -1,7 +1,5 @@
 ARCHIVOS DE CONFIGURACIÓN:
 
-composition.gcode - Repetier-Host
-slic3r.ini - Repetier-Host
 custom.ini - Repetier-Host -> data
 mlib.ini - Repetier-Host -> python -> Lib -> numpy -> core -> lib -> npy-pkg-config
 npymath.ini - Repetier-Host -> python -> Lib -> numpy -> core -> lib -> npy-pkg-config
