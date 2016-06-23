@@ -1,4 +1,4 @@
-ARCHIVOS DE CONFIGURACIÓN:
+ARCHIVOS DE CONFIGURACIÓN DE LA IMPRESORA HIJA RESURRECTION:
 
 slic3r.ini - Repetier-Host
 custom.ini - Repetier-Host -> data
