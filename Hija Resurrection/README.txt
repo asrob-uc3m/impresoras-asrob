@@ -1,8 +1,16 @@
 ARCHIVOS DE CONFIGURACIÓN DE LA IMPRESORA HIJA RESURRECTION:
 
-config.ini -> Archivo más importante de configuración, exportado desde Slic3r,
+configprint.ini -> Archivo de configuración de impresión, exportado desde Slic3r,
 para usarlo seguir las siguientes instrucciones dentro del programa Repetier-Host ->
-Slic3r/Configure/File/LoadConfig...
+Slic3r/Configure/PrintSettings -> File -> Load Config...
+
+configprinter.ini -> Archivo de configuración de la impresora, exportado desde Slic3r,
+para usarlo seguir las siguientes instrucciones dentro del programa Repetier-Host ->
+Slic3r/Configure/PrinterSettings -> File -> Load Config...
+
+configfilament.ini -> Archivo de configuración del filamento, exportado desde Slic3r,
+para usarlo seguir las siguientes instrucciones dentro del programa Repetier-Host ->
+Slic3r/Configure/FilamentSettings -> File -> Load Config...
 
 slic3r.ini - Repetier-Host
 custom.ini -> Repetier-Host/data
