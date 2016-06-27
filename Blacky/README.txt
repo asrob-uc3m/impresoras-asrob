@@ -1,8 +1,8 @@
 ARCHIVOS DE CONFIGURACIÓN DE LA IMPRESORA BLACKY:
 
-config.ini -> Archivo más importante de configuración, exportado desde Slic3r,
+configp.ini -> Archivo de configuración más importante, exportado desde Slic3r,
 para usarlo seguir las siguientes instrucciones dentro del programa Repetier-Host ->
-Slic3r/Configure/File/LoadConfig...
+Slic3r/Configure/-> File -> Load Config...
 
 custom.ini -> Repetier-Host/data
 mlib.ini -> Repetier-Host/python/Lib/numpy/core/lib/npy-pkg-config
