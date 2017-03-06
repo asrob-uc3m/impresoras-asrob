@@ -1,5 +1,8 @@
 ARCHIVOS DE CONFIGURACIÓN DE LA IMPRESORA HIJA RESURRECTION:
 
+Configuration.h -> Fichero de configuración de Marlin Firmware (a bordo de la Arduino). Contiene
+parámetros imprescindibles para el correcto funcionamiento de la impresora.
+
 config.ini -> Archivo de más importante de configuración de impresión, exportado desde Slic3r,
 para usarlo seguir las siguientes instrucciones dentro del programa Repetier-Host ->
 Slic3r/Configure/-> File -> Load Config...
