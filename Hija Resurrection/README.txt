@@ -1,5 +1,6 @@
 ARCHIVOS DE CONFIGURACIÓN DE LA IMPRESORA HIJA RESURRECTION:
 
+
 Configuration.h -> Fichero de configuración de Marlin Firmware (a bordo de la Arduino). Contiene
 parámetros imprescindibles para el correcto funcionamiento de la impresora.
 
