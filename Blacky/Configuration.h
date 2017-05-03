@@ -261,15 +261,15 @@ your extruder heater takes 2 minutes to hit the target on heating.
 // uncomment the 2 defines below:
 
 // Parameters for all extruder heaters
-#define THERMAL_RUNAWAY_PROTECTION_PERIOD 40 //in seconds /**/
-#define THERMAL_RUNAWAY_PROTECTION_HYSTERESIS 4 // in degree Celsius /**/
+#define THERMAL_RUNAWAY_PROTECTION_PERIOD 60 //in seconds /**/
+#define THERMAL_RUNAWAY_PROTECTION_HYSTERESIS 10 // in degree Celsius /**/
 
 // If you want to enable this feature for your bed heater,
 // uncomment the 2 defines below:
 
 // Parameters for the bed heater
-#define THERMAL_RUNAWAY_PROTECTION_BED_PERIOD 40 //in seconds /**/
-#define THERMAL_RUNAWAY_PROTECTION_BED_HYSTERESIS 4 // in degree Celsius /**/
+#define THERMAL_RUNAWAY_PROTECTION_BED_PERIOD 60 //in seconds /**/
+#define THERMAL_RUNAWAY_PROTECTION_BED_HYSTERESIS 10 // in degree Celsius /**/
 //===========================================================================
 
 
@@ -347,9 +347,9 @@ const bool Z_MAX_ENDSTOP_INVERTING = true; // set to true to invert the logic of
 #define max_software_endstops true  // If true, axis won't move to coordinates greater than the defined lengths below.
 
 // Travel limits after homing
-#define X_MAX_POS 205
+#define X_MAX_POS 188 /**/
 #define X_MIN_POS 0
-#define Y_MAX_POS 205
+#define Y_MAX_POS 158 /**/
 #define Y_MIN_POS 0
 #define Z_MAX_POS 200
 #define Z_MIN_POS 0
