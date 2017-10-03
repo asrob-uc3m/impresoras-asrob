@@ -1,9 +1,9 @@
-ARCHIVOS DE CONFIGURACI覰 DE LA IMPRESORA BLACKY:
+ARCHIVOS DE CONFIGURACI脫N DE LA IMPRESORA BLACKY:
 
-Configuration.h -> Fichero de configuraci髇 de Marlin Firmware (a bordo de la Arduino). Contiene
-par醡etros imprescindibles para el correcto funcionamiento de la impresora.
+Configuration.h -> Fichero de configuraci贸n de Marlin Firmware (a bordo de la Arduino). Contiene
+par谩metros imprescindibles para el correcto funcionamiento de la impresora.
 
-configp.ini -> Archivo de configuraci髇 m醩 importante, exportado desde Slic3r,
+configp.ini -> Archivo de configuraci贸n m谩s importante, exportado desde Slic3r,
 para usarlo seguir las siguientes instrucciones dentro del programa Repetier-Host ->
 Slic3r/Configure/-> File -> Load Config...
 
@@ -13,3 +13,4 @@ npymath.ini -> Repetier-Host/python/Lib/numpy/core/lib/npy-pkg-config
 docutils.conf -> Repetier-Host/python/Lib/numpy ->f2py/docs
 ParserDetails.ini -> Repetier-Host/Slic3r/lib/std/XML/SAX
 
+guest-session-auto.sh > Script de generaci贸n de usuario en sesi贸n de invitado
