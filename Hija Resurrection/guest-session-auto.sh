@@ -60,6 +60,6 @@ mkdir -p ~/.mono/registry/CurrentUser/software
 cp -r /usr/share/asrob/repetier ~/.mono/registry/CurrentUser/software
 cp -r /usr/share/asrob/.Slic3r ~/
 
-#Disable auto-logouta
+#Disable auto-logout
 export TMOUT=0
 xset s 0 dpms 0 0 0
