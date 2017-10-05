@@ -1,10 +1,10 @@
-ARCHIVOS DE CONFIGURACI覰 DE LA IMPRESORA HIJA RESURRECTION:
+ARCHIVOS DE CONFIGURACI脫N DE LA IMPRESORA HIJA RESURRECTION:
 
 
-Configuration.h -> Fichero de configuraci髇 de Marlin Firmware (a bordo de la Arduino). Contiene
-par醡etros imprescindibles para el correcto funcionamiento de la impresora.
+Configuration.h -> Fichero de configuraci贸n de Marlin Firmware (a bordo de la Arduino). Contiene
+par谩metros imprescindibles para el correcto funcionamiento de la impresora.
 
-config.ini -> Archivo de m醩 importante de configuraci髇 de impresi髇, exportado desde Slic3r,
+config.ini -> Archivo de m谩s importante de configuraci贸n de impresi贸n, exportado desde Slic3r,
 para usarlo seguir las siguientes instrucciones dentro del programa Repetier-Host ->
 Slic3r/Configure/-> File -> Load Config...
 
@@ -14,3 +14,7 @@ mlib.ini -> Repetier-Host/python/Lib/numpy/core/lib/npy-pkg-config
 npymath.ini -> Repetier-Host/python/Lib/numpy/core/lib/npy-pkg-config
 docutils.conf -> Repetier-Host/python/Lib/numpy ->f2py/docs
 ParserDetails.ini -> Repetier-Host/Slic3r/lib/std/XML/SAX
+
+ARCHIVOS DE CONFIGURACI脫N DEL PC DE LA IMPRESORA BLACKY:
+
+guest-session-auto.sh -> Script de generaci贸n de usuario en sesi贸n de invitado, creaci贸n al inicio de sesi贸n y autodestruci贸n con el logout de la misma.
