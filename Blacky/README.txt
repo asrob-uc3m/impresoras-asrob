@@ -13,4 +13,6 @@ npymath.ini -> Repetier-Host/python/Lib/numpy/core/lib/npy-pkg-config
 docutils.conf -> Repetier-Host/python/Lib/numpy ->f2py/docs
 ParserDetails.ini -> Repetier-Host/Slic3r/lib/std/XML/SAX
 
-guest-session-auto.sh > Script de generación de usuario en sesión de invitado
+ARCHIVOS DE CONFIGURACIÓN DEL PC DE LA IMPRESORA BLACKY:
+
+guest-session-auto.sh -> Script de generación de usuario en sesión de invitado, creación al inicio de sesión y autodestrución con el logout de la misma.
