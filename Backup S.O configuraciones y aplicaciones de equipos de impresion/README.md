@@ -14,7 +14,7 @@ Este obra está bajo una licencia de [Creative Commons Reconocimiento-NoComercia
 
 Acceso al Backup del sistema ( Pendiente ).
 
-<img src="ubuntu_xenial.png" alt="lub1" height="300" width="400" align="middle">
+<img src="ubuntu_xenial.png" alt="lub1" height="600" width="400" align="middle">
 
 *Figura 1: Backup del sistema*
 
