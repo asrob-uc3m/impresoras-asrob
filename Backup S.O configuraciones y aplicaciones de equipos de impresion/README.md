@@ -14,6 +14,10 @@ Este obra está bajo una licencia de [Creative Commons Reconocimiento-NoComercia
 
 Acceso al Backup del sistema ( Pendiente ).
 
+<img src="ubuntu_xenial.png" alt="lub1" height="300" width="400" align="middle">
+
+*Figura 1: Backup del sistema*
+
 ### 2- Reinstalación del backup 
 
 Para llevar a cabo la reinstalación de un Backup ya realizado, por favor, consulte ( [acceder](https://github.com/asrob-uc3m/impresoras-maintenance-manual-i3/blob/master/anexo_3_reinstalacion_de_sistema_operativo_software_y_configuraciones_desde_backup.md) )
