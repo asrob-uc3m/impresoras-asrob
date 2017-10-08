@@ -22,6 +22,10 @@ Acceso al Backup del sistema ( Pendiente ).
 
 Para llevar a cabo la reinstalación de un Backup ya realizado, por favor, consulte ( [acceder](https://github.com/asrob-uc3m/impresoras-maintenance-manual-i3/blob/master/anexo_3_reinstalacion_de_sistema_operativo_software_y_configuraciones_desde_backup.md) )
 
+<img src="ubuntu_xenial.png" alt="lub1" height="300" width="400" align="middle">
+
+*Figura 2: Reinstalación del Backup*
+
 ### 3- Realizar un nuevo backup del sistema
 
 Para llevar a cabo la un nuevo  Backup del sistema, por favor, consulte ( [acceder](https://github.com/asrob-uc3m/impresoras-maintenance-manual-i3/blob/master/anexo_4_proceso_de_backup_del_s.o_configuraciones_y_software.md) )
