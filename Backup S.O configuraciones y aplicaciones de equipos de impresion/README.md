@@ -30,6 +30,6 @@ Para llevar a cabo la reinstalación de un Backup ya realizado, por favor, consu
 
 Para llevar a cabo la un nuevo  Backup del sistema, por favor, consulte ( [acceder](https://github.com/asrob-uc3m/impresoras-maintenance-manual-i3/blob/master/anexo_4_proceso_de_backup_del_s.o_configuraciones_y_software.md) )
 
-<img src="ubuntu_xenial.png" alt="lub1" height="300" width="400" align="middle">
+<img src="proceso_de_backup.png" alt="lub1" height="300" width="400" align="middle">
 
 *Figura 3: Proceso de backup*
