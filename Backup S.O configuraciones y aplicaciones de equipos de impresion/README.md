@@ -19,7 +19,7 @@ Clonezilla puede descargarse en caso de ser necesario desde el acceso ( [descarg
 
 ### 1- Backup del sistema
 
-Para acceder a la imagen de backup del sistema operativo, configuraciones y aplicaciones de los ordenadores ASROB de control de las impresoras Blacky e Hija Resurrection haga clic aquí..
+Para acceder a la imagen de backup del sistema operativo, configuraciones y aplicaciones de los ordenadores ASROB de control de las impresoras Blacky e Hija Resurrection haga clic ( [descargar](http://clonezilla.org/downloads.php) ). 
 
 <img src="PC.jpg" alt="lub1" height="300" width="400" align="middle">
 
