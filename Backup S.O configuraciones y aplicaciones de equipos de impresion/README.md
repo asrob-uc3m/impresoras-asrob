@@ -12,6 +12,8 @@ Este obra está bajo una licencia de [Creative Commons Reconocimiento-NoComercia
 Para llevar a cabo el proceso de restauración o backup del sistema completo, se ha empleado la herramienta Clonezilla. Clonezilla es un software libre de recuperación ante desastres, sirve para la clonación de discos y particiones. Clonezilla está diseñado por Steven Shaiu y desarrollado por el NCHC Labs en Taiwán.
 Durante el proceso de restauración backup, la versión empleada fué "stable - 2.5.2-31", sin embargo, para procesos posteriores de backup y/o restauración, puede emplearse la versión actual, dado que se trata de un sofware retrocompatible.
 Clonezilla puede descargarse en caso de ser necesario desde el acceso ( [descargar](http://clonezilla.org/downloads.php) ). 
+NOTA:
+Pendiente de subida.
 
 <img src="Clonezilla.png" alt="lub1" height="300" width="400" align="middle">
 
