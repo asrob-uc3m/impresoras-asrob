@@ -12,7 +12,7 @@ Este obra está bajo una licencia de [Creative Commons Reconocimiento-NoComercia
 
 ### 1- Backup del sistema
 
-Acceso al Backup del sistema ( Pendiente ).
+Para acceder a la imagen de backup del sistema operativo, configuraciones y aplicaciones de los ordenadores ASROB de control de las impresoras Blacky e Hija Resurrection haga clic aquí..
 
 <img src="backup.png" alt="lub1" height="300" width="400" align="middle">
 
