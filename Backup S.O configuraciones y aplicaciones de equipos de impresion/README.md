@@ -43,3 +43,5 @@ Para llevar a cabo la un nuevo  Backup del sistema, por favor, consulte el manua
 <img src="Proceso_de_backup_20.jpg" alt="lub1" height="300" width="400" align="middle">
 
 *Figura 4: Proceso de backup*
+
+Para más información, fuente ( [Clonezilla](http://clonezilla.org/clonezilla-usage/general-live-use.php) ).
