@@ -22,7 +22,7 @@ Para acceder a la imagen de backup del sistema operativo, configuraciones y apli
 
 Para llevar a cabo la reinstalación de un Backup ya realizado, por favor, consulte el manual de mantenimiento de las impresoras, en el ANEXO 3, mediante( [acceder](https://github.com/asrob-uc3m/impresoras-maintenance-manual-i3/blob/master/anexo_3_reinstalacion_de_sistema_operativo_software_y_configuraciones_desde_backup.md) )
 
-<img src="proceso_de_backup_19" alt="lub1" height="500" width="400" align="middle">
+<img src="proceso_de_backup_19.jpg" alt="lub1" height="500" width="400" align="middle">
 
 *Figura 2: Reinstalación del Backup*
 
@@ -30,6 +30,6 @@ Para llevar a cabo la reinstalación de un Backup ya realizado, por favor, consu
 
 Para llevar a cabo la un nuevo  Backup del sistema, por favor, consulte el manual de mantenimiento de las impresoras, en el ANEXO 4, facilitado, mediante( [acceder](https://github.com/asrob-uc3m/impresoras-maintenance-manual-i3/blob/master/anexo_4_proceso_de_backup_del_s.o_configuraciones_y_software.md) )
 
-<img src="proceso_de_backup.png" alt="lub1" height="500" width="400" align="middle">
+<img src="proceso_de_backup_20.jpg" alt="lub1" height="500" width="400" align="middle">
 
 *Figura 3: Proceso de backup*
