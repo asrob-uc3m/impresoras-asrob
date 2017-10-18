@@ -1,0 +1,86 @@
+
+== Listado de Operadores ==
+
+== Operadores Honoríficos ==
+
+{| class="wikitable sortable"
+|-
+! style="background-color:navajowhite" | Foto!! style="background-color:navajowhite" | Nombre!! style="background-color:navajowhite" | Apellidos!! style="background-color:navajowhite" | Correo!! style="background-color:navajowhite" | Sitio web!! style="background-color:navajowhite" | Fecha de formación!! style="background-color:navajowhite" | Nº de operadores formados
+|-
+| [[File:Foto-alberto-valero.jpg|128px|link=http://iearobotics.com/alberto/doku.php]] || Alberto|| Valero || [mailto:alberto@iearobotics.com alberto(at)iearobotics.com]|| [http://iearobotics.com/alberto/doku.php Alberto Valero]|| UNKNOWN || UNKNOWN
+|-
+| [[File:Foto-juan gonzalez 08.jpg|128px|link=http://www.iearobotics.com/wiki/index.php?title=Juan_Gonzalez:Main]] || Juan|| González|| [mailto:juan@iearobotics.com juan(at)iearobotics.com]|| [http://www.iearobotics.com/wiki/index.php?title=Juan_Gonzalez:Main Juan Gonzalez]||UNKNOWN || UNKNOWN
+|-
+|}
+
+== Responsable ==
+
+{| class="wikitable sortable"
+|-
+! style="background-color:navajowhite" | Foto!! style="background-color:navajowhite" | Nombre!! style="background-color:navajowhite" | Apellidos!! style="background-color:navajowhite" | Correo!! style="background-color:navajowhite" | Sitio web!! style="background-color:navajowhite" | Fecha de formación!! style="background-color:navajowhite" | Nº de operadores formados
+|-
+| [[File:smile.png|128px]] || Jorge|| Ramírez || [mailto:jorgerc.21@gmail.com jorgerc.21(at)gmail.com]|| [http://ieee.uc3m.es/index.php/Main_Page ASROB]|| UNKNOWN || UNKNOWN
+|-
+|}
+
+== Operadores Autorizados ==
+
+{| class="wikitable sortable"
+|-
+! style="background-color:navajowhite" | Foto!! style="background-color:navajowhite" | Nombre!! style="background-color:navajowhite" | Apellidos!! style="background-color:navajowhite" | Correo!! style="background-color:navajowhite" | Sitio web!! style="background-color:navajowhite" | Fecha de formación!! style="background-color:navajowhite" | Nº de operadores formados
+|-
+| [[File:Foto concha monje.jpg|128px]] || Concha|| Monje || [mailto:cmonje@ing.uc3m.es cmonje(at)ing.uc3m.es]|| [http://roboticslab.uc3m.es/roboticslab/persona.php?id_pers=55 Concha Monje]|| UNKNOWN || UNKNOWN
+|-
+| [[File:Foto cesar arismendi.png|128px]] || César|| Arismendi || [mailto:carismen@ing.uc3m.es carismen(at)ing.uc3m.es]|| [http://roboticslab.uc3m.es/roboticslab/persona.php?id_pers=74 César Arismendi]||UNKNOWN || UNKNOWN
+|-
+| [[File:Julián.jpg|128px]] || Julian|| Caro Linares|| [mailto:jcarolinares@gmail.com jcarolinares(at)gmail.com]|| [http://ieee.uc3m.es/index.php/Main_Page ASROB]|| UNKNOWN || UNKNOWN
+|-
+| [[File:Foto Juan victores.jpg|128px]] || Juan|| González Víctores|| [mailto:jcgvicto(at)gmail.com jcgvicto(at)gmail.com]|| [http://roboticslab.uc3m.es/roboticslab/persona.php?id_pers=72 Juan G. Víctores]|| UNKNOWN|| UNKNOWN
+|-
+| [[File:Foto-ramon-barber.jpg|128px]] || Ramón || Barber|| [mailto:rbarber@ing.uc3m.es rbarber(at)ing.uc3m.es]|| [http://roboticslab.uc3m.es/roboticslab/persona.php?id_pers=4 Ramón Barber]|| UNKNOWN|| UNKNOWN
+|-
+| [[File:IGOR.JPG|128px]]  || Igor|| de Miguel Andrés|| [mailto:igor.demiguel@gmail.com igor.demiguel(at)gmail.com]|| [http://ieee.uc3m.es/index.php/Main_Page ASROB]||UNKNOWN|| UNKNOWN
+|-
+| [[File:david_lonchez_lopez.jpg|128px]] || David|| Lónchez López|| [mailto:100056578@alumnos.uc3m.es 100056578(at)alumnos.uc3m.es]|| [http://ieee.uc3m.es/index.php/Main_Page ASROB]|| UNKNOWN|| UNKNOWN
+|-
+| [[File:Avatar-SL.jpg|128px]] || Santiago|| López|| [mailto:santiago.lopez.pina@gmail.com santiago.lopez.pina(at)gmail.com]|| [http://ieee.uc3m.es/index.php/Main_Page ASROB]|| UNKNOWN|| UNKNOWN
+|-
+| [[File:nievesymadre.jpg|128px]] ||Nieves|| Cubo|| [mailto:nicuma3@gmail.com nicuma3(at)gmail.com]|| [http://ieee.uc3m.es/index.php/Main_Page ASROB]|| UNKNOWN|| UNKNOWN
+|-
+| [[File:eduardo_martin_blecua.jpg|128px]]  || Eduardo|| Martín Blecua|| [mailto:eduardomartin.emb@gmail.com eduardomartin.emb(at)gmail.com]|| [http://ieee.uc3m.es/index.php/Main_Page ASROB]||UNKNOWN|| UNKNOWN
+|-
+| [[File:irenesanznieto.jpg|128px]] || Irene|| Sanz|| [mailto:irenesanznieto@gmail.com irenesanznieto(at)gmail.com]|| [http://ieee.uc3m.es/index.php/Main_Page ASROB]|| UNKNOWN|| UNKNOWN
+|-
+| [[File:AlvaroFerran.jpg|128px]] || Alvaro|| Ferrán Cifuentes|| [mailto:alvaroferran@gmail.com alvaroferran(at)gmail.com]|| [http://alvaroferran.com Alvaro Ferrán Cifuentes]|| UNKNOWN|| UNKNOWN
+|-
+| [[File:Nortiz.jpg|128px]] ||Nuria|| Ortiz|| [mailto:nortizt@gmail.com nortizt(at)gmail.com]|| [http://ieee.uc3m.es/index.php/Main_Page ASROB]|| UNKNOWN|| UNKNOWN
+|-
+| [[File:Javier.jpeg|128px]]  || Javier Isabel|| Hernández|| [mailto:javier.isabel.hernandez@gmail.com javier.isabel.hernandez(at)gmail.com]|| [http://ieee.uc3m.es/index.php/Main_Page ASROB]||UNKNOWN|| UNKNOWN
+|-
+| [[File:mario_acevedo_aguilar.jpg|128px]] || Mario|| Acevedo Aguilar|| [mailto:100080847@alumnos.uc3m.es 100080847(at)alumnos.uc3m.es]|| [http://ieee.uc3m.es/index.php/Main_Page ASROB]|| UNKNOWN|| UNKNOWN
+|-
+| [[File:smile.png|128px]] || Susana || Niclós Ferreras|| [mailto:100284553@alumnos.uc3m.es 100284553(at)alumnos.uc3m.es]|| [http://ieee.uc3m.es/index.php/Main_Page ASROB]|| UNKNOWN|| UNKNOWN
+|-
+| [[File:cesar_chamorro_velasco.jpg|128px]] ||Cesar|| Chamorro Velasco|| [mailto:100056895@alumnos.uc3m.es 100056895(at)alumnos.uc3m.es]|| [http://ieee.uc3m.es/index.php/Main_Page ASROB]|| UNKNOWN|| UNKNOWN
+|-
+| [[File:ruben.jpg|128px]]  || Rubén|| Vilches Pons|| [mailto:100312408@alumnos.uc3m.es 100312408(at)alumnos.uc3m.es]|| [http://ieee.uc3m.es/index.php/Main_Page ASROB]||UNKNOWN|| UNKNOWN
+|-
+| [[File:RPM.jpg|128px]] || Raúl|| Perula|| [mailto:raul.perula@uc3m.es raul.perula(at)uc3m.es]|| [http://raules.sytes.net/raul Raúl Pérula]|| UNKNOWN|| UNKNOWN
+|-
+| [[File:smile.png|128px]] || Daniel|| Hurtado Fragoso|| [mailto:daniel.hurtado@alumnos.uc3m.es daniel.hurtado(at)alumnos.uc3m.es]|| [http://ieee.uc3m.es/index.php/Main_Page ASROB]|| UNKNOWN|| UNKNOWN
+|-
+| [[File:Pedro.jpg?|128px]] ||Pedro|| de Oro|| [mailto:pedrodeoro@gmail.com pedrodeoro(at)gmail.com]|| [http://ieee.uc3m.es/index.php/Main_Page ASROB]|| UNKNOWN|| UNKNOWN
+|-
+| [[File:javier_alamo.png|128px]]  || Francisco Javier|| del Álamo|| [mailto:pedrodeoro@gmail.com pedrodeoro(at)gmail.com]|| [http://ieee.uc3m.es/index.php/Main_Page ASROB]||UNKNOWN|| UNKNOWN
+|-
+| [[File:loli_pinel.jpg|128px]] || Loli|| Pinel|| [mailto:100322877@alumnos.uc3m.es 100322877(at)alumnos.uc3m.es]|| [http://ieee.uc3m.es/index.php/Main_Page ASROB]|| UNKNOWN|| UNKNOWN
+|-
+| [[File:smile.png|128px]] || Guillem|| Sebastian|| [mailto:100324434@alumnos.uc3m.es 100324434(at)alumnos.uc3m.es]|| [http://ieee.uc3m.es/index.php/Main_Page ASROB]|| UNKNOWN|| UNKNOWN
+|-
+| [[File:JenniferGago.jpg?|128px|link=https://github.com/jgagom]]  || Jennifer|| Joana Gago Muñoz|| [mailto:100317446@alumnos.uc3m.es 100317446(at)alumnos.uc3m.es]|| [https://github.com/jgagom Jennifer Joana Gago Muñoz]||UNKNOWN|| UNKNOWN
+|-
+| [[File:davidvelascogarcia.jpg?|170px|link=https://davidvelascogarcia.blogspot.com.es]] || David|| Velasco Garcia|| [mailto:100304689@alumnos.uc3m.es 100304689(at)alumnos.uc3m.es]|| [https://davidvelascogarcia.blogspot.com.es David Velasco Garcia]|| 05/10/2017|| UNKNOWN
+|-
+| [[File:Manuel.jpg?|170px|link=https://github.com/Siotma]] || Manuel|| Peña Fernández|| [mailto:manuel.p.fernandez@alumnos.uc3m.es manuel.p.fernandez(at)alumnos.uc3m.es]|| [https://github.com/Siotma Manuel Peña Fernández]|| UNKNOWN|| UNKNOWN
+|-
+|}

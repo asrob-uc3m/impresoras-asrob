@@ -1,0 +1,105 @@
+== Operadores Autorizados ==
+
+{|  class="wikitable" style="width:79%"
+! align="center" style="width:50%" colspan="2" | Operadores Honoríficos
+! align="center" style="width:25%" | Responsable
+<!--! align="center" style="width:25%" | Becario colaborador-->
+|- align=center
+| style="width:33%" | [[File:Foto-alberto-valero.jpg|128px|link=http://iearobotics.com/alberto/doku.php]]
+| style="width:33%" | [[File:Foto-juan gonzalez 08.jpg|128px|link=http://www.iearobotics.com/wiki/index.php?title=Juan_Gonzalez:Main]]
+| style="width:33%" | [[File:smile.png|128px]]
+<!--| style="width:33%" | [[File:rodrigo_mompo.jpg|128px]]
+<!--| style="width:25%" | [[File:JenniferGago.jpg?|128px|link=https://github.com/jgagom|128px]]-->
+|- align=center
+| '''[http://iearobotics.com/alberto/doku.php Alberto Valero]'''
+| '''[http://www.iearobotics.com/wiki/index.php?title=Juan_Gonzalez:Main Juan Gonzalez]'''
+| '''Jorge Ramírez''' <br> <font size=2>[mailto:jorgerc.21@gmail.com jorgerc.21(at)gmail.com]</font size>
+<!--| '''Rodrigo Mompo Redoli''' <br> <font size=2>[mailto:rodrigo.mompo@alumnos.uc3m.es rodrigo.mompo(at)alumnos.uc3m.es]</font size>
+<!--| '''[https://github.com/jgagom Jennifer Gago Muñoz]''' <br> <font size=2>[mailto:100317446@alumnos.uc3m.es 100317446(at)alumnos.uc3m.es]</font size> -->
+|}
+
+{|  class="wikitable" style="width:75%"
+! align="center" colspan="4" | Operadores
+|- align="center"
+| style="width:25%" | [[File:Foto concha monje.jpg|128px]]
+| style="width:25%" | [[File:Foto cesar arismendi.png|128px]]
+| style="width:25%" | [[File:Julián.jpg|128px]]
+| style="width:25%" | [[File:Foto Juan victores.jpg|128px]]
+|- align="center"
+| '''[http://roboticslab.uc3m.es/roboticslab/persona.php?id_pers=55 Concha Monje]''' <br> <font size=2>[mailto:cmonje@ing.uc3m.es cmonje(at)ing.uc3m.es]</font size>
+| '''[http://roboticslab.uc3m.es/roboticslab/persona.php?id_pers=74 César Arismendi]''' <br> <font size=2>[mailto:carismen@ing.uc3m.es carismen(at)ing.uc3m.es]</font size>
+| '''Julian Caro Linares''' <br> <font size=2>[mailto:jcarolinares@gmail.com jcarolinares(at)gmail.com]</font size>
+| '''[http://roboticslab.uc3m.es/roboticslab/persona.php?id_pers=72 Juan G. Víctores]''' <br> <font size=2>[mailto:jcgvicto(at)gmail.com jcgvicto(at)gmail.com]</font size>
+|- align="center"
+| [[File:Foto-ramon-barber.jpg|128px]]
+| [[File:IGOR.JPG|128px]] 
+| [[File:david_lonchez_lopez.jpg|128px]]
+| [[File:Avatar-SL.jpg|128px]]
+|- align="center"
+| '''[http://roboticslab.uc3m.es/roboticslab/persona.php?id_pers=4 Ramón Barber]''' <br> <font size=2>[mailto:rbarber@ing.uc3m.es rbarber(at)ing.uc3m.es]</font size>
+| '''Igor de Miguel Andrés''' <br> <font size=2>[mailto:igor.demiguel@gmail.com igor.demiguel(at)gmail.com]</font size>
+| '''David Lónchez López''' <br> <font size=2>[mailto:100056578@alumnos.uc3m.es 100056578(at)alumnos.uc3m.es]</font size>
+| '''Santiago López''' <br> <font size=2>[mailto:santiago.lopez.pina@gmail.com santiago.lopez.pina(at)gmail.com]</font size>
+
+|- align="center"
+| [[File:nievesymadre.jpg|128px]]
+| [[File:eduardo_martin_blecua.jpg|128px]]
+| [[File:irenesanznieto.jpg|128px]]
+| [[File:AlvaroFerran.jpg|128px]]
+|- align="center"
+| '''Nieves Cubo''' <br> <font size=2>[mailto:nicuma3@gmail.com nicuma3(at)gmail.com]</font size>
+| '''Eduardo Martín Blecua''' <br> <font size=2>[mailto:eduardomartin.emb@gmail.com eduardomartin.emb(at)gmail.com]</font size>
+| '''Irene Sanz''' <br> <font size=2>[mailto:irenesanznieto@gmail.com irenesanznieto(at)gmail.com]</font size>
+| '''[http://alvaroferran.com Alvaro Ferrán Cifuentes]''' <br> <font size=2>[mailto:alvaroferran@gmail.com alvaroferran(at)gmail.com]</font size>
+
+|- align="center"
+| [[File:Nortiz.jpg|128px]]
+| [[File:Javier.jpeg|128px]]
+| [[File:mario_acevedo_aguilar.jpg|128px]]
+| [[File:smile.png|128px]]
+|- align="center"
+| '''Nuria Ortiz''' <br> <font size=2>[mailto:nortizt@gmail.com nortizt(at)gmail.com]</font size>
+| '''Javier Isabel Hernández''' <br> <font size=2>[mailto:javier.isabel.hernandez@gmail.com javier.isabel.hernandez(at)gmail.com]</font size>
+| '''Mario Acevedo Aguilar''' <br> <font size=2>[mailto:100080847@alumnos.uc3m.es 100080847(at)alumnos.uc3m.es]</font size>
+| '''Susana Niclós Ferreras''' <br> <font size=2>[mailto:100284553@alumnos.uc3m.es 100284553(at)alumnos.uc3m.es]</font size>
+
+|- align="center"
+| [[File:cesar_chamorro_velasco.jpg|128px]]
+| [[File:ruben.jpg|128px]]
+| [[File:RPM.jpg|link=http://raules.sytes.net/raul|128px]]
+| [[File:smile.png|128px]]
+
+|- align="center"
+| '''Cesar Chamorro Velasco''' <br> <font size=2>[mailto:100056895@alumnos.uc3m.es 100056895(at)alumnos.uc3m.es]</font size>
+| '''Rubén Vilches Pons''' <br> <font size=2>[mailto:100312408@alumnos.uc3m.es 100312408(at)alumnos.uc3m.es]</font size>
+| '''[http://raules.sytes.net/raul Raúl Pérula]''' <br> <font size=2>[mailto:raul.perula@uc3m.es raul.perula(at)uc3m.es]</font size>
+| '''Daniel Hurtado Fragoso''' <br> <font size=2>[mailto:daniel.hurtado@alumnos.uc3m.es daniel.hurtado(at)alumnos.uc3m.es]</font size>
+
+|- align="center"
+| [[File:Pedro.jpg?|128px]]
+| [[File:javier_alamo.png|128px]]
+| [[File:loli_pinel.jpg|128px]]
+| [[File:smile.png|128px]]
+
+|- align="center"
+| '''Pedro de Oro''' <br> <font size=2>[mailto:pedrodeoro@gmail.com pedrodeoro(at)gmail.com]</font size>
+| '''Francisco Javier del Álamo''' <br> <font size=2>[mailto:100068128@alumnos.uc3m.es 1000068128(at)alumnos.uc3m.es]</font size>
+| '''Loli Pinel''' <br> <font size=2>[mailto:100322877@alumnos.uc3m.es 100322877(at)alumnos.uc3m.es]</font size>
+| '''Guillem Sebastian''' <br> <font size=2>[mailto:100324434@alumnos.uc3m.es 100324434(at)alumnos.uc3m.es]</font size>
+
+|- align="center"
+| [[File:JenniferGago.jpg?|128px|link=https://github.com/jgagom]]
+| [[File:davidvelascogarcia.jpg?|170px|link=https://davidvelascogarcia.blogspot.com.es]]
+| [[File:Manuel.jpg?|170px|link=https://github.com/Siotma]]
+| 
+
+|- align="center"
+| '''[https://github.com/jgagom Jennifer Joana Gago Muñoz]''' <br> <font size=2>[mailto:100317446@alumnos.uc3m.es 100317446(at)alumnos.uc3m.es]</font size>
+| '''[https://davidvelascogarcia.blogspot.com.es David Velasco García]''' <br> <font size=2>[mailto:100304689@alumnos.uc3m.es 100304689(at)alumnos.uc3m.es]</font size>
+| '''[https://github.com/Siotma Manuel Peña Fernández]''' <br> <font size=2>[mailto:manuel.p.fernandez@alumnos.uc3m.es manuel.p.fernandez(at)alumnos.uc3m.es]</font size>
+|
+
+
+|}
+
+[[Category:Impresora 3D|Impresora 3D]]
