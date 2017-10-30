@@ -14,7 +14,7 @@
 export TEXTDOMAINDIR=/usr/share/locale-langpack
 export TEXTDOMAIN=lightdm
 
-disable screen locking
+# disable screen locking
 gsettings set org.gnome.desktop.lockdown disable-lock-screen true
 
 
