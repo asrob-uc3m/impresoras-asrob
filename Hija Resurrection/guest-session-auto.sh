@@ -39,16 +39,17 @@ dialog_content () {
 	TEXT=$(gettext '
 IMPORTANT NOTICE:
 All data created during this guest session will be deleted when
-you log out, and settings will be reset to defaults.
+you log out or switch user, and settings will be reset to defaults.
 Please save files on some external device, for instance a USB
 stick, if you would like to access them again later.
 
 
 AVISO IMPORTANTE:
 Toda la información creada en esta sesión será eliminada al
-cerrar sesión, y la configuración se restablecerá por defecto.
+cerrar sesión o cambiar de usuario, y la configuración se 
+restablecerá por defecto.
 Por favor, utiliza un medio extraíble, como una memoria USB,
-para salvar los archivos si no quieres perderlos.')
+para salvar tus archivos si no quieres perderlos.')
 }
 
 dialog_content
