@@ -15,5 +15,5 @@ Repetier-Host -> Slic3r/Configure/-> File -> Load Config..
 DEDALO EEPROM DATA.mepr -> Archivo de configuracion de Repetier. Actualmente no necesario, dado que tiene los 
 parametros cargados en Marlin Firmware.
 
-Cubierta Ventilador Dédalo - v1.2.stl -> Cubierta del ventilador que actualmente se encuentra en la ventilacion de la
-placa Sanguino.
+Parts -> Carpeta con piezas utilizadas en la impresora. En caso de rotura de alguna de ellas o malfuncionamiento
+de alguna de ellas.
