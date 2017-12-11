@@ -2,7 +2,7 @@
 
 * 160mm_spool_holder_prusa.stl -> Soportes de sujección de la bobina de filamento. [Thingiverse](https://www.thingiverse.com/thing:91724).
 
-* Bed leveling.stl -> Pieza de calibracion de la cama caliente. En ella van encajadas tuercas M3 para su fácil movimiento, y posterior ajuste de cama. Pendiente añadir enlace a Thingiverse.
+* Bed leveling.stl -> Pieza de calibracion de la cama caliente. En ella van encajadas tuercas M3 para su fácil movimiento, y posterior ajuste de cama. [Thingiverse](https://www.thingiverse.com/thing:2333767).
 
 * Cubierta Ventilador Externo Dédalo.stl -> Es la protección y sujección del ventilador más grande que posee Dédalo, que actualmente se necuentra ventilando la electrónica. (Diseño de [@daavm](https://github.com/daavm)). No disponible en Thingiverse.
 
