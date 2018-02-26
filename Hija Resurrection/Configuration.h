@@ -1,7 +1,7 @@
 //FICHERO DE CONFIGURACIÓN MARLIN FIRMWARE
 //ESTE FICHERO CORRESPONDE A LA RELEASE DE MARLIN 1.0.2-2 QUE SE PUEDE CONSULTAR EN EL ENLACE: https://github.com/MarlinFirmware/Marlin/releases/tag/1.0.2-2
 //LAS LÍNEAS QUE HAN SIDO MODIFICADAS DE SU VERSIÓN ORIGINAL APARECEN MARCADAS CON //HIJA_RESURRECTION
-//Última modificación 13 de noviembre de 2017
+//Última modificación 22 de febrero de 2018
 
 #ifndef CONFIGURATION_H
 #define CONFIGURATION_H
@@ -492,7 +492,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = true; // set to true to invert the logic of
 
 // default settings
 
-#define DEFAULT_AXIS_STEPS_PER_UNIT   {160,160,8400,1800}  // steps per mm //HIJA_RESURRECTION
+#define DEFAULT_AXIS_STEPS_PER_UNIT   {80,80,4200,900}  // steps per mm //HIJA_RESURRECTION
 #define DEFAULT_MAX_FEEDRATE          {400, 400, 1, 45}    // (mm/sec) //HIJA_RESURRECTION
 #define DEFAULT_MAX_ACCELERATION      {5000,5000,10,5000}    // X, Y, Z, E maximum start speed for accelerated moves. //HIJA_RESURRECTION
 
