@@ -41,7 +41,7 @@
 //===========================================================================
 
 #if DISABLED(PIDTEMPBED)
-  #define BED_CHECK_INTERVAL 5000 // ms between checks in bang-bang control
+  #define BED_CHECK_INTERVAL 500 // ms between checks in bang-bang control #TRONXY
   #if ENABLED(BED_LIMIT_SWITCHING)
     #define BED_HYSTERESIS 2 // Only disable heating if T>target+BED_HYSTERESIS and enable heating if T>target-BED_HYSTERESIS
   #endif
@@ -62,9 +62,9 @@
  * If you get false positives for "Thermal Runaway" increase THERMAL_PROTECTION_HYSTERESIS and/or THERMAL_PROTECTION_PERIOD
  */
 #if ENABLED(THERMAL_PROTECTION_HOTENDS)
-  #define THERMAL_PROTECTION_PERIOD 40        // Seconds
-  #define THERMAL_PROTECTION_HYSTERESIS 4     // Degrees Celsius
-
+  #define THERMAL_PROTECTION_PERIOD 60        // Seconds #TRONXY
+  #define THERMAL_PROTECTION_HYSTERESIS 10     // Degrees Celsius #TROXY
+//Datos copiados de la configuración de Hija. Por algún motivo están duplicados en Configuration_adv.h y Configuration.h, pendiente de revisar
   /**
    * Whenever an M104 or M109 increases the target temperature the firmware will wait for the
    * WATCH_TEMP_PERIOD to expire, and if the temperature hasn't increased by WATCH_TEMP_INCREASE
@@ -82,8 +82,8 @@
  * Thermal Protection parameters for the bed are just as above for hotends.
  */
 #if ENABLED(THERMAL_PROTECTION_BED)
-  #define THERMAL_PROTECTION_BED_PERIOD 20    // Seconds
-  #define THERMAL_PROTECTION_BED_HYSTERESIS 2 // Degrees Celsius
+  #define THERMAL_PROTECTION_BED_PERIOD 60    // Seconds #TRONXY
+  #define THERMAL_PROTECTION_BED_HYSTERESIS 5 // Degrees Celsius #TRONXY
 
   /**
    * Whenever an M140 or M190 increases the target temperature the firmware will wait for the
