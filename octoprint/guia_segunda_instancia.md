@@ -41,7 +41,7 @@ Con esto, nuestra segunda instancia de OctoPrint será accesible desde el puerto
 
 ### Copiar y modificar script de inicio de OctoPrint2
 
-`sudo cp /etc/init.d/octoprint /etc/init.c/octoprint2`
+`sudo cp /etc/init.d/octoprint /etc/init.d/octoprint2`
 
 Entramos de nuevo en un editor para modificar este archivo
 
@@ -56,7 +56,7 @@ sudo systemctl daemon-reload
 
 sudo update-rc.d octoprint2 defaults
 
-sudo /etc/init.c/octoprin2 start
+sudo /etc/init.d/octoprint2 start
 
 systemctl status octoprint2.service
 ```
