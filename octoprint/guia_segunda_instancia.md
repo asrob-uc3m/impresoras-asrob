@@ -12,12 +12,22 @@
 
 ###Pasos a seguir 
 
-1. Copiar la carpeta de OctoPrint.
-2. Copiar y modificar script de configuración de OctoPrint2.
-3. Copiar y modificar script de inicio de OctoPrint2.
-4. Añadir el nuevo script de inicio de OctoPrint2 a autostart.
+1. Conectarte a la Rasphberry Pi.
+2. Copiar la carpeta de OctoPrint.
+3. Copiar y modificar script de configuración de OctoPrint2.
+4. Copiar y modificar script de inicio de OctoPrint2.
+5. Añadir el nuevo script de inicio de OctoPrint2 a autostart.
+
+### Conectarte a la Raspberry Pi mediante SSH
+
+Conectaremos a la red local la RPi ya sea por cable ethernet o por Wi-Fi, y configuraremos una IP Estatica.
+Posteriormente en el terminal ejecutaremos el siguiente comando:
+
+`ssh pi@[IP local de la RPi]`
 
 ### Copiar la carpeta original de OctoPrint
+
+Una vez dentro de `pi@octopi` ejecutaremos los siguientes comandos:
 
 `cp -R /home/pi/.octoprint /home/pi/.octoprint2`
 
