@@ -62,3 +62,8 @@ systemctl status octoprint2.service
 ```
 
 Si el último comando no devuelve ningún error, significa que hasta ahora hemos hecho todo bien.
+
+### Primer Inicio
+
+A la primera instancia accederemos desde la IP, donde esta conectada la Rasphberry Pi. A la segunda, acceremos con la misma IP, añadiendo a continuacion ```:5001```.
+Y ¡LISTO! ya puedes comenzar a usar tus dos impresoras.
