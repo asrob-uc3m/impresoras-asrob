@@ -37,7 +37,7 @@ Una vez dentro de `pi@octopi` ejecutaremos los siguientes comandos:
 
 Usando vim o nano (a tu elección) editamos el archivo /etc/default/octoprin2
 
-`vim /etc/default/octoprint2` o `nano /etc/default/octoprint2`
+`vim /etc/default/octoprint2` o `sudo nano /etc/default/octoprint2`
 
 y modificamos PORT y DAEMON_ARGS, quedando ambos valores así: 
 
@@ -55,7 +55,7 @@ Con esto, nuestra segunda instancia de OctoPrint será accesible desde el puerto
 
 Entramos de nuevo en un editor para modificar este archivo
 
-`vim /etc/init.d/octoprint2` o `nano /etc/init.d/octoprint2`
+`vim /etc/init.d/octoprint2` o `sudo nano /etc/init.d/octoprint2`
 
 En este archivo cambiaremos todos los `octoprint` por `octoprint2` y todos los `OctoPrint` por `OctoPrint2` (**cuidado** con las mayúculas!!), **pero** dejaremos tal y como está la linea de `DAEMON=/usr/bin/octoprint`.
 
