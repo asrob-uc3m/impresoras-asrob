@@ -1,11 +1,17 @@
 # Información sobre las Piezas (orden alfabético)
 
-* Gregs_Wade_Big_Gear_47.stl -> Engranaje grande del extrusor.
+* Extruder:
+  * Extrusor.
 
-* Gregs_Wade_Body.stl -> Cuerpo del extrusor.
+* LCD:
+  * Caja pantalla Full Graphic.
 
-* Gregs_Wade_Idler.stl -> Canalizador del filamento del extrusor.
+* Power Supply:
+  * Piezas para la fuente de alimentación.
 
-* Gregs_Wade_Small_Gear_9.stl -> Engranaje pequeño del extrusor.
+* X axis: 
+  * Tensor eje X.
+  * Carro eje X.
 
-* x-carriage-24to30-gt2.stl -> Carro del eje X.
+* Z axis: 
+  * Ajuste fino de altura de Z.
