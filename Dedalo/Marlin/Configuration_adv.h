@@ -30,12 +30,6 @@
  * Basic settings can be found in Configuration.h
  *
  */
-/**
-*FICHERO DE CONFIGURACIÓN MARLIN FIRMWARE
-*ESTE FICHERO CORRESPONDE A LA RELEASE DE MARLIN 1.1.9 QUE SE PUEDE CONSULTAR EN EL ENLACE: https://github.com/MarlinFirmware/Marlin/releases/tag/1.0.2-2
-*LAS LÍNEAS QUE HAN SIDO MODIFICADAS DE SU VERSIÓN ORIGINAL APARECEN MARCADAS CON //GEONOSIS
-*Última modificación 15 de octubre de 2018
-*/
 #ifndef CONFIGURATION_ADV_H
 #define CONFIGURATION_ADV_H
 #define CONFIGURATION_ADV_H_VERSION 010109
@@ -58,7 +52,7 @@
 #endif
 
 #if DISABLED(PIDTEMPBED)
-  #define BED_CHECK_INTERVAL 500 //GEONOSIS // ms between checks in bang-bang control
+  #define BED_CHECK_INTERVAL 5000 // ms between checks in bang-bang control
   #if ENABLED(BED_LIMIT_SWITCHING)
     #define BED_HYSTERESIS 2 // Only disable heating if T>target+BED_HYSTERESIS and enable heating if T>target-BED_HYSTERESIS
   #endif
@@ -81,8 +75,8 @@
  * THERMAL_PROTECTION_HYSTERESIS and/or THERMAL_PROTECTION_PERIOD
  */
 #if ENABLED(THERMAL_PROTECTION_HOTENDS)
-  #define THERMAL_PROTECTION_PERIOD 60 //GEONOSIS        // Seconds
-  #define THERMAL_PROTECTION_HYSTERESIS 10 //GEONOSIS     // Degrees Celsius
+  #define THERMAL_PROTECTION_PERIOD 60 //DEDALO        // Seconds
+  #define THERMAL_PROTECTION_HYSTERESIS 10 //DEDALO     // Degrees Celsius
 
   /**
    * Whenever an M104, M109, or M303 increases the target temperature, the
@@ -104,8 +98,8 @@
  * Thermal Protection parameters for the bed are just as above for hotends.
  */
 #if ENABLED(THERMAL_PROTECTION_BED)
-  #define THERMAL_PROTECTION_BED_PERIOD 60 //GEONOSIS    // Seconds
-  #define THERMAL_PROTECTION_BED_HYSTERESIS 5 //GEONOSIS // Degrees Celsius
+  #define THERMAL_PROTECTION_BED_PERIOD 60 //DEDALO    // Seconds
+  #define THERMAL_PROTECTION_BED_HYSTERESIS 2 //DEDALO // Degrees Celsius
 
   /**
    * As described above, except for the bed (M140/M190/M303).
