@@ -52,7 +52,7 @@
 #endif
 
 #if DISABLED(PIDTEMPBED)
-  #define BED_CHECK_INTERVAL 500 //BLACKY // ms between checks in bang-bang control
+  #define BED_CHECK_INTERVAL 5000 // ms between checks in bang-bang control
   #if ENABLED(BED_LIMIT_SWITCHING)
     #define BED_HYSTERESIS 2 // Only disable heating if T>target+BED_HYSTERESIS and enable heating if T>target-BED_HYSTERESIS
   #endif
@@ -75,8 +75,8 @@
  * THERMAL_PROTECTION_HYSTERESIS and/or THERMAL_PROTECTION_PERIOD
  */
 #if ENABLED(THERMAL_PROTECTION_HOTENDS)
-  #define THERMAL_PROTECTION_PERIOD 60 //BLACKY        // Seconds
-  #define THERMAL_PROTECTION_HYSTERESIS 10 //BLACKY     // Degrees Celsius
+  #define THERMAL_PROTECTION_PERIOD 60 //DEDALO        // Seconds
+  #define THERMAL_PROTECTION_HYSTERESIS 10 //DEDALO     // Degrees Celsius
 
   /**
    * Whenever an M104, M109, or M303 increases the target temperature, the
@@ -98,8 +98,8 @@
  * Thermal Protection parameters for the bed are just as above for hotends.
  */
 #if ENABLED(THERMAL_PROTECTION_BED)
-  #define THERMAL_PROTECTION_BED_PERIOD 60 //BLACKY    // Seconds
-  #define THERMAL_PROTECTION_BED_HYSTERESIS 10 //BLACKY // Degrees Celsius
+  #define THERMAL_PROTECTION_BED_PERIOD 60 //DEDALO    // Seconds
+  #define THERMAL_PROTECTION_BED_HYSTERESIS 2 //DEDALO // Degrees Celsius
 
   /**
    * As described above, except for the bed (M140/M190/M303).
@@ -1484,14 +1484,14 @@
 /**
  * User-defined menu items that execute custom GCode
  */
-#define CUSTOM_USER_MENUS //BLACKY
+#define CUSTOM_USER_MENUS //DEDALO
 #if ENABLED(CUSTOM_USER_MENUS)
   #define USER_SCRIPT_DONE "M117 User Script Done"
   #define USER_SCRIPT_AUDIBLE_FEEDBACK
-  #define USER_SCRIPT_RETURN  // Return to status screen after a script //BLACKY
+  #define USER_SCRIPT_RETURN  // Return to status screen after a script //DEDALO
 
-  #define USER_DESC_1 "Cooldown" //BLACKY
-  #define USER_GCODE_1 "M140 S0\nM104 S0" //BLACKY
+  #define USER_DESC_1 "Cooldown" //DEDALO
+  #define USER_GCODE_1 "M140 S0\nM104 S0" //DEDALO
 
   #define USER_DESC_2 "Preheat for PLA"
   #define USER_GCODE_2 "M140 S" STRINGIFY(PREHEAT_1_TEMP_BED) "\nM104 S" STRINGIFY(PREHEAT_1_TEMP_HOTEND)
@@ -1499,8 +1499,8 @@
   #define USER_DESC_3 "Preheat for ABS"
   #define USER_GCODE_3 "M140 S" STRINGIFY(PREHEAT_2_TEMP_BED) "\nM104 S" STRINGIFY(PREHEAT_2_TEMP_HOTEND)
 
-  #define USER_DESC_4 "Heat Bed/Home" //BLACKY
-  #define USER_GCODE_4 "M140 S" STRINGIFY(PREHEAT_2_TEMP_BED) "\nG28" //BLACKY
+  #define USER_DESC_4 "Heat Bed/Home" //DEDALO
+  #define USER_GCODE_4 "M140 S" STRINGIFY(PREHEAT_2_TEMP_BED) "\nG28" //DEDALO
 
   #define USER_DESC_5 "Home & Info"
   #define USER_GCODE_5 "G28\nM503"
