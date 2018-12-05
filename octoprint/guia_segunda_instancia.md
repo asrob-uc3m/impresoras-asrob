@@ -2,7 +2,7 @@
 
 ##### Con esta guía podrás utilizar 2 impresoras al mismo tiempo con OctoPrint usando una sola raspberry
 
-###Requisitos
+### Requisitos
 
 - Raspberry Pi (preferiblemente de 3 para arriba).
 - Tarjeta de memoria: Con 8Gb debería valer, pero cuanto más, mejor.
@@ -10,9 +10,9 @@
 - Cable micro usb para alimentar y conectarte a la Raspberry
 - Cables de conexión a tus impresoras.
 
-###Pasos a seguir 
+### Pasos a seguir 
 
-1. Conectarte a la Rasphberry Pi.
+1. Conectarte a la Raspberry Pi.
 2. Copiar la carpeta de OctoPrint.
 3. Copiar y modificar script de configuración de OctoPrint2.
 4. Copiar y modificar script de inicio de OctoPrint2.
@@ -75,5 +75,5 @@ Si el último comando no devuelve ningún error, significa que hasta ahora hemos
 
 ### Primer Inicio
 
-A la primera instancia accederemos desde la IP, donde esta conectada la Rasphberry Pi. A la segunda, acceremos con la misma IP, añadiendo a continuacion ```:5001```.
+A la primera instancia accederemos desde la IP, donde esta conectada la Raspberry Pi. A la segunda, acceremos con la misma IP, añadiendo a continuacion ```:5001```.
 Y ¡LISTO! ya puedes comenzar a usar tus dos impresoras.
