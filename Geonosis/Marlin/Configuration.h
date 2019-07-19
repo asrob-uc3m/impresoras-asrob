@@ -87,7 +87,7 @@
 // User-specified version info of this build to display in [Pronterface, etc] terminal window during
 // startup. Implementation of an idea by Prof Braino to inform user that any changes made to this
 // build by the user have been successfully uploaded into firmware.
-#define STRING_CONFIG_H_AUTHOR "dmarcosm" // Who made the changes.
+#define STRING_CONFIG_H_AUTHOR "GioSunrider" // Who made the changes.
 #define SHOW_BOOTSCREEN
 #define STRING_SPLASH_LINE1 SHORT_BUILD_VERSION // will be shown during bootup in line 1
 #define STRING_SPLASH_LINE2 WEBSITE_URL         // will be shown during bootup in line 2
@@ -137,12 +137,12 @@
 // The following define selects which electronics board you have.
 // Please choose the name from boards.h that matches your setup
 #ifndef MOTHERBOARD
-  #define MOTHERBOARD BOARD_MELZI //GEONOSIS
+  #define MOTHERBOARD BOARD_RAMPS_14_EFB //GEONOSIS
 #endif
 
 // Optional custom name for your RepStrap or other custom machine
 // Displayed in the LCD "Ready" message
-#define CUSTOM_MACHINE_NAME "3D Printer" //GEONOSIS
+#define CUSTOM_MACHINE_NAME "Geonosis" //GEONOSIS
 
 // Define this to set a unique identifier for this printer, (Used by some programs to differentiate between machines)
 // You can use an online service to generate a random UUID. (eg http://www.uuidgenerator.net/version4)
@@ -334,12 +334,12 @@
 #define MAX_REDUNDANT_TEMP_SENSOR_DIFF 10
 
 // Extruder temperature must be close to target for this long before M109 returns success
-#define TEMP_RESIDENCY_TIME 60 //GEONOSIS  // (seconds)
+#define TEMP_RESIDENCY_TIME 30 //GEONOSIS  // (seconds)
 #define TEMP_HYSTERESIS 10 //GEONOSIS       // (degC) range of +/- temperatures considered "close" to the target one
 #define TEMP_WINDOW     1       // (degC) Window around target to start the residency timer x degC early.
 
 // Bed temperature must be close to target for this long before M190 returns success
-#define TEMP_BED_RESIDENCY_TIME 60 //GEONOSIS  // (seconds)
+#define TEMP_BED_RESIDENCY_TIME 30 //GEONOSIS  // (seconds)
 #define TEMP_BED_HYSTERESIS 5 //GEONOSIS       // (degC) range of +/- temperatures considered "close" to the target one
 #define TEMP_BED_WINDOW     1       // (degC) Window around target to start the residency timer x degC early.
 
@@ -556,13 +556,13 @@
  *          TMC5130, TMC5130_STANDALONE
  * :['A4988', 'DRV8825', 'LV8729', 'L6470', 'TB6560', 'TB6600', 'TMC2100', 'TMC2130', 'TMC2130_STANDALONE', 'TMC2208', 'TMC2208_STANDALONE', 'TMC26X', 'TMC26X_STANDALONE', 'TMC2660', 'TMC2660_STANDALONE', 'TMC5130', 'TMC5130_STANDALONE']
  */
-//#define X_DRIVER_TYPE  A4988
-//#define Y_DRIVER_TYPE  A4988
-//#define Z_DRIVER_TYPE  A4988
+#define X_DRIVER_TYPE  DRV8825 //GEONOSIS
+#define Y_DRIVER_TYPE  DRV8825 //GEONOSIS
+#define Z_DRIVER_TYPE  DRV8825 //GEONOSIS
 //#define X2_DRIVER_TYPE A4988
 //#define Y2_DRIVER_TYPE A4988
 //#define Z2_DRIVER_TYPE A4988
-//#define E0_DRIVER_TYPE A4988
+#define E0_DRIVER_TYPE DRV8825 //GEONOSIS
 //#define E1_DRIVER_TYPE A4988
 //#define E2_DRIVER_TYPE A4988
 //#define E3_DRIVER_TYPE A4988
@@ -1432,7 +1432,7 @@
  * you must uncomment the following option or it won't work.
  *
  */
-#define SDSUPPORT //GEONOSIS
+//#define SDSUPPORT //GEONOSIS
 
 /**
  * SD CARD: SPI SPEED
@@ -1662,7 +1662,7 @@
 // RepRapDiscount FULL GRAPHIC Smart Controller
 // http://reprap.org/wiki/RepRapDiscount_Full_Graphic_Smart_Controller
 //
-#define REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER //GEONOSIS
+//#define REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER //GEONOSIS
 
 //
 // ReprapWorld Graphical LCD
