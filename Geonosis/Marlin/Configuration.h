@@ -121,7 +121,7 @@
  *
  * :[2400, 9600, 19200, 38400, 57600, 115200, 250000, 500000, 1000000]
  */
-#define BAUDRATE 250000
+#define BAUDRATE 250000 //GEONOSIS
 
 // Enable the Bluetooth serial interface on AT90USB devices
 //#define BLUETOOTH
@@ -484,9 +484,9 @@
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
   // Tronxy X5S
-  #define  DEFAULT_Kp 33.02 //Geonosis
-  #define  DEFAULT_Ki 3.56  //Geonosis
-  #define  DEFAULT_Kd 76.47 //Geonosis
+  #define  DEFAULT_Kp 22.2 //Geonosis
+  #define  DEFAULT_Ki 1.08  //Geonosis
+  #define  DEFAULT_Kd 114 //Geonosis
 
   // MakerGear
   //#define DEFAULT_Kp 7.0
@@ -649,10 +649,10 @@
 #define X_MIN_ENDSTOP_INVERTING true  // Set to true to invert the logic of the endstop. //Geonosis
 #define Y_MIN_ENDSTOP_INVERTING true  // Set to true to invert the logic of the endstop. //Geonosis
 #define Z_MIN_ENDSTOP_INVERTING true  // Set to true to invert the logic of the endstop. //Geonosis
-#define X_MAX_ENDSTOP_INVERTING false // Set to true to invert the logic of the endstop.
-#define Y_MAX_ENDSTOP_INVERTING false // Set to true to invert the logic of the endstop.
-#define Z_MAX_ENDSTOP_INVERTING false // Set to true to invert the logic of the endstop.
-#define Z_MIN_PROBE_ENDSTOP_INVERTING true // Set to true to invert the logic of the probe. //Geonosis
+#define X_MAX_ENDSTOP_INVERTING true  // Set to true to invert the logic of the endstop. //Geonosis
+#define Y_MAX_ENDSTOP_INVERTING true  // Set to true to invert the logic of the endstop. //Geonosis
+#define Z_MAX_ENDSTOP_INVERTING true  // Set to true to invert the logic of the endstop. //Geonosis
+#define Z_MIN_PROBE_ENDSTOP_INVERTING false // Set to true to invert the logic of the probe. //Geonosis
 
 /**
  * Stepper Drivers
@@ -730,17 +730,17 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 160, 160, 4000, 500 } //Geonosis
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 160, 160, 795, 815 } //Geonosis
 /**
  * Default Max Feed Rate (mm/s)
  * Override with M203
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
-#define DEFAULT_MAX_FEEDRATE          { 500, 500, 20, 50 } //Geonosis
+#define DEFAULT_MAX_FEEDRATE          { 400, 400, 4, 150 } //Geonosis
 
 //#define LIMITED_MAX_FR_EDITING        // Limit edit via M203 or LCD to DEFAULT_MAX_FEEDRATE * 2
 #if ENABLED(LIMITED_MAX_FR_EDITING)
-  #define MAX_FEEDRATE_EDIT_VALUES    { 600, 600, 20, 50 } // ...or, set your own edit limits
+  #define MAX_FEEDRATE_EDIT_VALUES    { 600, 600, 20, 200 } // ...or, set your own edit limits
 #endif
 
 /**
@@ -749,11 +749,11 @@
  * Override with M201
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
-#define DEFAULT_MAX_ACCELERATION      { 3000, 3000, 100, 10000 } //Geonosis
+#define DEFAULT_MAX_ACCELERATION      { 3000, 3000, 1000, 10000 } //Geonosis
 
 //#define LIMITED_MAX_ACCEL_EDITING     // Limit edit via M201 or LCD to DEFAULT_MAX_ACCELERATION * 2
 #if ENABLED(LIMITED_MAX_ACCEL_EDITING)
-  #define MAX_ACCEL_EDIT_VALUES       { 6000, 6000, 200, 20000 } // ...or, set your own edit limits 
+  #define MAX_ACCEL_EDIT_VALUES       { 6000, 6000, 2000, 20000 } // ...or, set your own edit limits 
 #endif
 
 /**
@@ -776,11 +776,11 @@
  * When changing speed and direction, if the difference is less than the
  * value set here, it may happen instantaneously.
  */
-//#define CLASSIC_JERK
+#define CLASSIC_JERK         //Geonosis
 #if ENABLED(CLASSIC_JERK)
-  #define DEFAULT_XJERK  8.0 //Geonosis
-  #define DEFAULT_YJERK  8.0 //Geonosis
-  #define DEFAULT_ZJERK  0.4 //Geonosis
+  #define DEFAULT_XJERK  10.0 //Geonosis
+  #define DEFAULT_YJERK  10.0 //Geonosis
+  #define DEFAULT_ZJERK   0.3 //Geonosis
 
   //#define TRAVEL_EXTRA_XYJERK 0.0     // Additional jerk allowance for all travel moves
 
@@ -811,7 +811,7 @@
  *
  * See https://github.com/synthetos/TinyG/wiki/Jerk-Controlled-Motion-Explained
  */
-#define S_CURVE_ACCELERATION
+#define S_CURVE_ACCELERATION //Geonosis
 
 //===========================================================================
 //============================= Z Probe Options =============================
@@ -859,7 +859,7 @@
  * Use G29 repeatedly, adjusting the Z height at each point with movement commands
  * or (with LCD_BED_LEVELING) the LCD controller.
  */
-#define PROBE_MANUALLY //Geonosis
+//#define PROBE_MANUALLY 
 //#define MANUAL_PROBE_START_Z 0.2
 
 /**
@@ -955,7 +955,7 @@
  *
  * Specify a Probe position as { X, Y, Z }
  */
-#define NOZZLE_TO_PROBE_OFFSET { 30, -18, 0 } //Geonosis
+#define NOZZLE_TO_PROBE_OFFSET { -25, -25, -12.35 } //Geonosis
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
@@ -1035,7 +1035,7 @@
 // :{ 0:'Low', 1:'High' }
 #define X_ENABLE_ON 0
 #define Y_ENABLE_ON 0
-#define Z_ENABLE_ON 0
+#define Z_ENABLE_ON 0 
 #define E_ENABLE_ON 0 // For all extruders
 
 // Disables axis stepper immediately when it's not being used.
@@ -1050,12 +1050,12 @@
 // @section extruder
 
 #define DISABLE_E false             // For all extruders
-#define DISABLE_INACTIVE_EXTRUDER   // Keep only the active extruder enabled
+#define DISABLE_INACTIVE_EXTRUDER   true // Keep only the active extruder enabled
 
 // @section machine
 
 // Invert the stepper direction. Change (or reverse the motor connector) if an axis goes the wrong way.
-#define INVERT_X_DIR false
+#define INVERT_X_DIR true
 #define INVERT_Y_DIR true
 #define INVERT_Z_DIR false
 
@@ -1098,9 +1098,9 @@
 #define X_MIN_POS 0
 #define Y_MIN_POS -5 //Geonosis
 #define Z_MIN_POS 0
-#define X_MAX_POS X_BED_SIZE
-#define Y_MAX_POS Y_BED_SIZE
-#define Z_MAX_POS 440 //Geonosis
+#define X_MAX_POS X_BED_SIZE +20 //Geonosis
+#define Y_MAX_POS Y_BED_SIZE +10 //Geonosis
+#define Z_MAX_POS 410 //Geonosis
 
 /**
  * Software Endstops
@@ -1355,7 +1355,7 @@
 // - Move the Z probe (or nozzle) to a defined XY point before Z Homing when homing all axes (G28).
 // - Prevent Z homing when the Z probe is outside bed area.
 //
-//#define Z_SAFE_HOMING
+#define Z_SAFE_HOMING
 
 #if ENABLED(Z_SAFE_HOMING)
   #define Z_SAFE_HOMING_X_POINT ((X_BED_SIZE) / 2)    // X point for Z homing when homing all axes (G28).
@@ -1473,14 +1473,14 @@
 
 // Preheat Constants
 #define PREHEAT_1_LABEL       "PLA"
-#define PREHEAT_1_TEMP_HOTEND 205
-#define PREHEAT_1_TEMP_BED     55
-#define PREHEAT_1_FAN_SPEED     0 // Value from 0 to 255
+#define PREHEAT_1_TEMP_HOTEND  205
+#define PREHEAT_1_TEMP_BED      55
+#define PREHEAT_1_FAN_SPEED      0 // Value from 0 to 255
 
-#define PREHEAT_2_LABEL       "ABS"
-#define PREHEAT_2_TEMP_HOTEND 240
-#define PREHEAT_2_TEMP_BED    110
-#define PREHEAT_2_FAN_SPEED     0 // Value from 0 to 255
+#define PREHEAT_2_LABEL       "PETG" //Geonosis
+#define PREHEAT_2_TEMP_HOTEND  230
+#define PREHEAT_2_TEMP_BED      70
+#define PREHEAT_2_FAN_SPEED      0 // Value from 0 to 255
 
 /**
  * Nozzle Park
@@ -1493,7 +1493,7 @@
  *    P1  Raise the nozzle always to Z-park height.
  *    P2  Raise the nozzle by Z-park amount, limited to Z_MAX_POS.
  */
-//#define NOZZLE_PARK_FEATURE
+#define NOZZLE_PARK_FEATURE //Geonosis
 
 #if ENABLED(NOZZLE_PARK_FEATURE)
   // Specify a park position as { X, Y, Z_raise }
@@ -1655,7 +1655,7 @@
  * you must uncomment the following option or it won't work.
  *
  */
-//#define SDSUPPORT
+#define SDSUPPORT //Geonosis
 
 /**
  * SD CARD: SPI SPEED
@@ -1712,7 +1712,7 @@
 //
 //  Set this option if CLOCKWISE causes values to DECREASE
 //
-//#define REVERSE_ENCODER_DIRECTION
+#define REVERSE_ENCODER_DIRECTION //Geonosis
 
 //
 // This option reverses the encoder direction for navigating LCD menus.
@@ -1906,7 +1906,7 @@
 // RepRapDiscount FULL GRAPHIC Smart Controller
 // http://reprap.org/wiki/RepRapDiscount_Full_Graphic_Smart_Controller
 //
-//#define REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER
+#define REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER //Geonosis
 
 //
 // ReprapWorld Graphical LCD
@@ -2026,7 +2026,7 @@
 //
 // SAV OLEd LCD module support using either SSD1306 or SH1106 based LCD modules
 //
-//#define SAV_3DGLCD
+//#define SAV_3DGLCD          
 #if ENABLED(SAV_3DGLCD)
   //#define U8GLIB_SSD1306  //Geonosis
   #define U8GLIB_SH1106     //Geonosis
